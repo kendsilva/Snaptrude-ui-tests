@@ -1,0 +1,5 @@
+
+browser: chrome
+nodeUrl: http://localhost:4445/wd/hub
+driver: webdriver.chrome.driver
+path: /Users/ken.dsilva/Downloads/chromedriver
