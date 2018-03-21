@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="13777" started-at="2018-03-21T13:26:09Z" finished-at="2018-03-21T13:26:23Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="13777" started-at="2018-03-21T13:26:09Z" finished-at="2018-03-21T13:26:23Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:tests.LoginTest@7f13d6e]" name="loginTest" duration-ms="4386" started-at="2018-03-21T18:56:18Z" finished-at="2018-03-21T18:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- tests.LoginTest -->
+      <class name="base.BaseTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:base.BaseTest@1c3a4799]" name="setUp" is-config="true" duration-ms="5974" started-at="2018-03-21T18:56:03Z" finished-at="2018-03-21T18:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:base.BaseTest@1c3a4799]" name="tearDown" is-config="true" duration-ms="65" started-at="2018-03-21T18:56:28Z" finished-at="2018-03-21T18:56:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- base.BaseTest -->
+      <class name="tests.EmailSubscriptionTest">
+        <test-method status="PASS" signature="emailSubscriptionTest()[pri:0, instance:tests.EmailSubscriptionTest@71bbf57e]" name="emailSubscriptionTest" duration-ms="9345" started-at="2018-03-21T18:56:09Z" finished-at="2018-03-21T18:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailSubscriptionTest -->
+      </class> <!-- tests.EmailSubscriptionTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
